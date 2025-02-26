@@ -1,0 +1,34 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "web-test-runner",
+    "test:watch": "web-test-runner --watch",
+    "coverage": "web-test-runner --coverage"
+
+  },
+  "devDependencies": {
+    "@lit/ts-transformers": "^2.0.2",
+    "@open-wc/testing": "^4.0.0",
+    "@remcovaes/web-test-runner-vite-plugin": "^1.2.1",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^22.13.5",
+    "@web/test-runner": "^0.18.1",
+    "@web/test-runner-playwright": "^0.11.0",
+    "lit": "^3.2.1",
+    "sinon": "^19.0.2",
+    "typescript": "^5.7.3",
+    "vite": "^5.2.0",
+    "vite-tsconfig-paths": "^4.3.2"
+  },
+  "description": "This repo demonstrates one approach to running [Web Test Runner](https://modern-web.dev/docs/test-runner/overview/) to test [Lit](https://lit.dev/) elements created with TypeScript and built using [Vite](https://vitejs.dev/guide/).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
